@@ -52,7 +52,6 @@ Key goals include:
 - Prioritize mobile responsiveness: Design mobile-first for accessibility on all devices.  
 - Enhance accessibility: Follow WCAG guidelines for color contrast and keyboard navigation.
 
----
 
 ### Key Features
 - Property Search and Filtering: Users can filter properties based on price, location, and amenities.  
@@ -70,7 +69,6 @@ Key goals include:
 | Listing Detailed View | Provides complete property details such as images, description, amenities, and booking form. |
 | Simple Checkout View | Allows users to confirm booking details, process secure payments, and view confirmation messages. |
 
----
 
 ### Importance of User-Friendly Design
 A user-friendly design is essential for maximizing engagement and conversions in a booking platform.  
@@ -104,8 +102,6 @@ The project uses a consistent typography system to ensure readability and aesthe
   - Headings: 24px to 32px
   - Secondary Text: 14px
 
----
-
 ### Importance of Identifying Design Properties
 Identifying and documenting design properties such as colors, typography, and spacing ensures a unified and professional look across all pages and components.  
 
@@ -129,7 +125,7 @@ Each role contributes uniquely to ensuring that the Airbnb Clone Project is func
 - Tracks progress and ensures deadlines are met.  
 - Resolves issues and manages resources effectively.
 
-**Contribution to Success:**  
+Contribution to Success: 
 The Project Manager ensures the project remains on schedule, meets objectives, and maintains alignment with stakeholder expectations.
 
 ### Frontend Developers
@@ -139,7 +135,7 @@ The Project Manager ensures the project remains on schedule, meets objectives, a
 - Ensure accessibility and mobile responsiveness.  
 - Collaborate with designers and backend developers for API integration.
 
-**Contribution to Success:**  
+Contribution to Success: 
 Frontend developers bring the visual and interactive aspects of the platform to life, ensuring a smooth user experience.
 
 
@@ -150,7 +146,7 @@ Frontend developers bring the visual and interactive aspects of the platform to 
 - Ensure security, performance, and scalability.  
 - Work closely with the frontend team to synchronize functionality.
 
-**Contribution to Success:**  
+Contribution to Success: 
 Backend developers enable the application’s functionality by managing data and server-side operations seamlessly.
 
 ### Designers
@@ -160,7 +156,7 @@ Backend developers enable the application’s functionality by managing data and
 - Conduct usability testing to enhance user experience.  
 - Collaborate with frontend developers to ensure design fidelity.
 
-**Contribution to Success:**  
+Contribution to Success: 
 Designers ensure the platform is visually appealing, intuitive, and aligned with user needs.
 
 ### QA/Testers
@@ -170,7 +166,7 @@ Designers ensure the platform is visually appealing, intuitive, and aligned with
 - Verify that all components work as intended across browsers and devices.  
 - Provide detailed reports and collaborate with developers to resolve issues.
 
-**Contribution to Success:**  
+Contribution to Success: 
 QA/Testers ensure product quality and reliability by maintaining high testing standards before deployment.
 
 ### DevOps Engineers
@@ -180,7 +176,7 @@ QA/Testers ensure product quality and reliability by maintaining high testing st
 - Monitor performance, scalability, and uptime.  
 - Implement continuous integration for efficient team collaboration.
 
-**Contribution to Success:**  
+Contribution to Success: 
 DevOps Engineers streamline the development-to-deployment workflow, ensuring stability and speed in releases.
 
 
@@ -191,7 +187,7 @@ DevOps Engineers streamline the development-to-deployment workflow, ensuring sta
 - Manages the product backlog and ensures alignment with project goals.  
 - Evaluates completed features to ensure they meet user expectations.
 
-**Contribution to Success:**  
+Contribution to Success: 
 The Product Owner ensures that the final product delivers real value to users and aligns with business objectives.
 
 
@@ -203,14 +199,13 @@ The Product Owner ensures that the final product delivers real value to users an
 - Encourages collaboration and continuous improvement.  
 - Tracks sprint progress and fosters communication among team members.
 
-**Contribution to Success:**  
+Contribution to Success: 
 The Scrum Master maintains productivity and ensures that agile methodologies are effectively followed throughout the project.
 
 
 
 Each role plays a vital part in achieving a cohesive, well-structured, and successful product — from concept to deployment.
 
----
 
 ## UI Component Patterns
 
@@ -231,8 +226,6 @@ The navigation bar provides quick access to key sections of the application, ens
 
 **Purpose:**  
 The Navbar enhances usability by keeping navigation accessible from any page and supports quick user actions.
-
----
 
 ### Property Card
 **Description:**  
