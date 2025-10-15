@@ -61,7 +61,6 @@ Key goals include:
 - User Authentication: Register, log in, and manage profiles securely.  
 - Favorites and Wishlist: Save preferred properties for later.  
 
----
 
 ### Primary Pages
 
@@ -91,8 +90,6 @@ The following color styles are used throughout the application to maintain visua
 - **Background Color:** #FFFFFF  
 - **Text Color:** #222222  
 - **Secondary Text Color:** #717171  
-
----
 
 ### Typography
 The project uses a consistent typography system to ensure readability and aesthetic balance across all components.
@@ -125,8 +122,6 @@ Understanding these design properties helps maintain a smooth workflow between d
 A successful project depends on collaboration among team members with clearly defined roles and responsibilities.  
 Each role contributes uniquely to ensuring that the Airbnb Clone Project is functional, user-friendly, and completed efficiently.
 
----
-
 ### Project Manager
 **Responsibilities:**
 - Oversees the overall project timeline, deliverables, and milestones.  
@@ -136,8 +131,6 @@ Each role contributes uniquely to ensuring that the Airbnb Clone Project is func
 
 **Contribution to Success:**  
 The Project Manager ensures the project remains on schedule, meets objectives, and maintains alignment with stakeholder expectations.
-
----
 
 ### Frontend Developers
 **Responsibilities:**
@@ -149,7 +142,6 @@ The Project Manager ensures the project remains on schedule, meets objectives, a
 **Contribution to Success:**  
 Frontend developers bring the visual and interactive aspects of the platform to life, ensuring a smooth user experience.
 
----
 
 ### Backend Developers
 **Responsibilities:**
@@ -161,8 +153,6 @@ Frontend developers bring the visual and interactive aspects of the platform to 
 **Contribution to Success:**  
 Backend developers enable the application’s functionality by managing data and server-side operations seamlessly.
 
----
-
 ### Designers
 **Responsibilities:**
 - Create UI/UX mockups and maintain a cohesive design system.  
@@ -172,8 +162,6 @@ Backend developers enable the application’s functionality by managing data and
 
 **Contribution to Success:**  
 Designers ensure the platform is visually appealing, intuitive, and aligned with user needs.
-
----
 
 ### QA/Testers
 **Responsibilities:**
@@ -185,8 +173,6 @@ Designers ensure the platform is visually appealing, intuitive, and aligned with
 **Contribution to Success:**  
 QA/Testers ensure product quality and reliability by maintaining high testing standards before deployment.
 
----
-
 ### DevOps Engineers
 **Responsibilities:**
 - Manage deployment environments and CI/CD pipelines.  
@@ -197,7 +183,6 @@ QA/Testers ensure product quality and reliability by maintaining high testing st
 **Contribution to Success:**  
 DevOps Engineers streamline the development-to-deployment workflow, ensuring stability and speed in releases.
 
----
 
 ### Product Owner
 **Responsibilities:**
@@ -209,7 +194,7 @@ DevOps Engineers streamline the development-to-deployment workflow, ensuring sta
 **Contribution to Success:**  
 The Product Owner ensures that the final product delivers real value to users and aligns with business objectives.
 
----
+
 
 ### Scrum Master
 **Responsibilities:**
@@ -221,16 +206,17 @@ The Product Owner ensures that the final product delivers real value to users an
 **Contribution to Success:**  
 The Scrum Master maintains productivity and ensures that agile methodologies are effectively followed throughout the project.
 
----
+
 
 Each role plays a vital part in achieving a cohesive, well-structured, and successful product — from concept to deployment.
+
+---
 
 ## UI Component Patterns
 
 The project follows a component-based architecture to ensure scalability, reusability, and consistency across the user interface.  
 Each UI component is designed to be modular and maintainable, aligning with best practices in modern frontend development.
 
----
 
 ### Navbar
 **Description:**  
