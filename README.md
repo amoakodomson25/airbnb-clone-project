@@ -35,6 +35,11 @@ The project is divided into two major parts:
 - Docker (containerization)  
 - GitHub Actions (CI/CD pipeline)
 
+
+
+
+# Frontend
+
 ## UI/UX Design Planning
 
 ### Design Goals
@@ -78,6 +83,49 @@ It:
 
 A clean, responsive, and intuitive interface ensures users enjoy a smooth experience from start to finish.
 
+### Color Styles
+The following color styles are used throughout the application to maintain visual consistency and brand identity:
+
+- **Primary Color:** #FF5A5F  
+- **Secondary Color:** #008489  
+- **Background Color:** #FFFFFF  
+- **Text Color:** #222222  
+- **Secondary Text Color:** #717171  
+
+---
+
+### Typography
+The project uses a consistent typography system to ensure readability and aesthetic balance across all components.
+
+- **Primary Font Family:** Circular  
+- **Font Weights:**
+  - Book (400)
+  - Medium (500)
+  - Bold (700)
+- **Font Sizes:**
+  - Body Text: 16px
+  - Headings: 24px to 32px
+  - Secondary Text: 14px
+
+---
+
+### Importance of Identifying Design Properties
+Identifying and documenting design properties such as colors, typography, and spacing ensures a unified and professional look across all pages and components.  
+
+Key benefits include:
+- **Consistency:** Ensures a cohesive visual identity throughout the application.  
+- **Efficiency:** Allows developers to reuse design tokens and components.  
+- **Scalability:** Simplifies updates and design modifications as the project grows.  
+- **Collaboration:** Provides a clear reference for both designers and developers, reducing communication gaps.  
+
+Understanding these design properties helps maintain a smooth workflow between design and development while ensuring the final product aligns with the original mockup design.
+
+
+
+
+
+
+# Backend
 
 ## Team Roles
 
@@ -98,6 +146,27 @@ Below are the primary roles and their responsibilities, adapted from the project
 ---
 
 Each role is critical to delivering a scalable, secure, and maintainable backend system that aligns with real-world production standards.
+
+## Technology Stack
+
+The backend of the Airbnb Clone Project integrates several modern technologies to ensure scalability, maintainability, and performance.  
+Each technology serves a specific purpose within the system architecture.
+
+| Technology | Purpose |
+|-------------|----------|
+| **Django** | A high-level Python web framework used to build RESTful APIs and manage backend logic efficiently. |
+| **MySQL** | A relational database system used to store and manage user, property, and booking data securely. |
+| **GraphQL** | A query language for APIs that allows clients to request exactly the data they need, improving performance and flexibility. |
+| **Docker** | A containerization tool used to package and deploy the application consistently across environments. |
+| **GitHub Actions** | A CI/CD tool used to automate testing, integration, and deployment workflows. |
+| **Git and GitHub** | Used for version control and collaborative development. |
+| **Markdown (README.md)** | Used for documentation and clear communication of project setup and progress. |
+
+---
+
+This technology stack supports a modular and maintainable backend infrastructure.  
+It ensures that the system remains scalable, secure, and easy to integrate with the frontend application.
+
 
 
 
