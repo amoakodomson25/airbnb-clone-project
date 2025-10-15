@@ -284,11 +284,167 @@ Each technology serves a specific purpose within the system architecture.
 | **Git and GitHub** | Used for version control and collaborative development. |
 | **Markdown (README.md)** | Used for documentation and clear communication of project setup and progress. |
 
----
 
 This technology stack supports a modular and maintainable backend infrastructure.  
 It ensures that the system remains scalable, secure, and easy to integrate with the frontend application.
 
+## Database Design
+
+This section outlines the key entities and their relationships for the project database.
+
+### Key Entities
+
+#### 1. Users
+**Important Fields:**
+- `id`: Unique identifier for each user  
+- `name`: Full name of the user  
+- `email`: User’s email address (unique)  
+- `password`: Encrypted password  
+- `role`: Defines whether the user is a guest, host, or admin  
+
+**Description:**  
+Users can list properties, make bookings, leave reviews, and manage their accounts.
 
 
+#### 2. Properties
+**Important Fields:**
+- `id`: Unique identifier for each property  
+- `user_id`: References the property owner (User)  
+- `title`: Name or title of the property  
+- `description`: Details about the property  
+- `price_per_night`: Cost per night for booking  
 
+**Description:**  
+A property belongs to a user (host). Each property can have multiple bookings and reviews.
+
+
+#### 3. Bookings
+**Important Fields:**
+- `id`: Unique identifier for each booking  
+- `user_id`: References the guest (User)  
+- `property_id`: References the booked property  
+- `check_in_date`: Start date of the booking  
+- `check_out_date`: End date of the booking  
+
+**Description:**  
+A booking is created by a user for a specific property. Each booking is associated with payment details.
+
+
+#### 4. Reviews
+**Important Fields:**
+- `id`: Unique identifier for each review  
+- `user_id`: References the user who wrote the review  
+- `property_id`: References the reviewed property  
+- `rating`: Numeric rating (1–5)  
+- `comment`: Text review from the user  
+
+**Description:**  
+A review is linked to both a user and a property. Each property can have multiple reviews.
+
+
+#### 5. Payments
+**Important Fields:**
+- `id`: Unique identifier for each payment  
+- `booking_id`: References the related booking  
+- `amount`: Total payment amount  
+- `payment_method`: Method used (e.g., credit card, PayPal)  
+- `status`: Payment status (pending, completed, failed)  
+
+**Description:**  
+Each payment corresponds to one booking. It ensures transaction tracking for financial operations.
+
+
+### Entity Relationships
+
+- A **User** can own multiple **Properties**.  
+- A **Property** can have many **Bookings** and **Reviews**.  
+- A **Booking** belongs to one **User** and one **Property**.  
+- A **Review** belongs to one **User** and one **Property**.  
+- A **Payment** is linked to one **Booking**.
+
+This structure ensures data consistency, easy query management, and scalability for future extensions.
+
+## Feature Breakdown
+
+### User Management
+Handles registration, authentication, and user profiles.  
+Users can create accounts, log in securely, and manage their personal details. This feature ensures that only authorized users can access or modify sensitive data.
+
+### Property Management
+Allows property owners to list, edit, and manage their properties.  
+This includes uploading images, setting prices, and updating descriptions. It enables hosts to showcase their listings effectively and attract potential guests.
+
+### Booking System
+Manages property availability and reservations.  
+Users can book available properties, view booking history, and cancel or modify reservations. This is the core functionality that connects hosts and guests in the system.
+
+### Review and Rating
+Enables guests to leave feedback on properties after their stay.  
+Reviews help build trust between users and provide transparency about property quality and host performance.
+
+### Payment Processing
+Facilitates secure online payments for bookings.  
+It handles transactions, refunds, and payment confirmations, ensuring a smooth and reliable financial workflow.
+
+### Admin Dashboard
+Provides administrative oversight and control.  
+Admins can monitor user activity, manage listings, handle reports, and maintain overall platform quality and compliance.
+
+
+## API Security
+
+### Key Security Measures
+
+#### 1. Authentication
+Ensures that only registered and verified users can access the system.  
+We will use token-based authentication (e.g., JWT) to verify user identity for every API request. This helps prevent unauthorized access to user accounts and sensitive data.
+
+#### 2. Authorization
+Controls user permissions and defines what actions each user role can perform.  
+For example, a host can manage their properties, while guests can only make bookings. This prevents users from performing actions outside their access level.
+
+#### 3. Rate Limiting
+Limits the number of API requests a user or IP can make within a specific time frame.  
+This helps protect the system from abuse, denial-of-service (DoS) attacks, and ensures fair usage of server resources.
+
+#### 4. Data Encryption
+All sensitive information, such as passwords and payment details, will be encrypted using strong hashing and SSL/TLS protocols.  
+Encryption ensures that even if data is intercepted, it remains unreadable to unauthorized parties.
+
+#### 5. Input Validation and Sanitization
+Every API input will be validated to prevent SQL injection, XSS, and other injection attacks.  
+This ensures that only clean and safe data enters the system, maintaining data integrity and protecting backend services.
+
+---
+
+### Importance of Security
+
+- **Protecting User Data:** Safeguards personal information like emails, passwords, and contact details from breaches.  
+- **Securing Payments:** Ensures that all financial transactions are encrypted and authenticated to prevent fraud.  
+- **Maintaining Trust:** Users must feel confident that their information and transactions are secure.  
+- **Preventing System Abuse:** Measures like rate limiting and authorization maintain fair and safe usage across all users.
+
+Robust API security not only protects the platform but also ensures compliance with data privacy standards and provides a safe user experience.
+
+## CI/CD Pipeline
+
+### Overview
+A **CI/CD (Continuous Integration and Continuous Deployment)** pipeline automates the process of building, testing, and deploying code.  
+It ensures that every change made to the project is automatically integrated, tested, and delivered efficiently, reducing manual errors and speeding up development.
+
+### Importance
+Implementing a CI/CD pipeline allows the team to:
+- Detect and fix bugs early through automated testing.  
+- Maintain consistent build quality across environments.  
+- Deploy new updates quickly and reliably.  
+- Improve collaboration between developers, testers, and DevOps engineers.  
+
+This helps ensure the system remains stable, scalable, and easy to update as new features are introduced.
+
+### Tools and Technologies
+- **GitHub Actions:** For automating build, test, and deployment workflows.  
+- **Docker:** To containerize the application, ensuring consistent environments across development and production.  
+- **Jenkins or GitLab CI:** Optional tools for managing complex pipelines or multi-stage deployments.  
+- **AWS / Heroku:** For deploying and hosting the application in a scalable environment.
+
+Together, these tools create an automated and reliable process for integrating code changes, testing functionality, and deploying updates to production.
