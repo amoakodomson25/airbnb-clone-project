@@ -265,7 +265,6 @@ Below are the primary roles and their responsibilities, adapted from the project
 | Project Manager / Scrum Master | Oversees the project timeline, ensures agile practices, coordinates team communication, and tracks deliverables. |
 | QA / Tester | Designs and executes test cases (unit, integration, API tests), reports bugs, and ensures backend stability before deployment. |
 
----
 
 Each role is critical to delivering a scalable, secure, and maintainable backend system that aligns with real-world production standards.
 
@@ -415,7 +414,6 @@ Encryption ensures that even if data is intercepted, it remains unreadable to un
 Every API input will be validated to prevent SQL injection, XSS, and other injection attacks.  
 This ensures that only clean and safe data enters the system, maintaining data integrity and protecting backend services.
 
----
 
 ### Importance of Security
 
