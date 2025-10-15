@@ -8,7 +8,7 @@ The project is divided into two major parts:
 - **Frontend Pro Dev**: Focused on creating responsive, accessible, and visually appealing user interfaces.
 - **Backend Pro Dev**: Focused on developing scalable APIs, database systems, and secure backend services.
 
----
+
 
 ## Project Goals
 - Build a **functional booking platform** with end-to-end flow — from browsing to booking.  
@@ -16,7 +16,7 @@ The project is divided into two major parts:
 - Strengthen understanding of **frontend component architecture** and **backend system design**.  
 - Apply **modern web development best practices**, including responsiveness, accessibility, testing, and CI/CD.
 
----
+
 
 ## Tech Stack
 
@@ -35,7 +35,7 @@ The project is divided into two major parts:
 - Docker (containerization)  
 - GitHub Actions (CI/CD pipeline)
 
-
+---
 
 
 # Frontend
