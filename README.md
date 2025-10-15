@@ -120,6 +120,149 @@ Key benefits include:
 
 Understanding these design properties helps maintain a smooth workflow between design and development while ensuring the final product aligns with the original mockup design.
 
+## Project Roles and Responsibilities
+
+A successful project depends on collaboration among team members with clearly defined roles and responsibilities.  
+Each role contributes uniquely to ensuring that the Airbnb Clone Project is functional, user-friendly, and completed efficiently.
+
+---
+
+### Project Manager
+**Responsibilities:**
+- Oversees the overall project timeline, deliverables, and milestones.  
+- Coordinates communication across all team members.  
+- Tracks progress and ensures deadlines are met.  
+- Resolves issues and manages resources effectively.
+
+**Contribution to Success:**  
+The Project Manager ensures the project remains on schedule, meets objectives, and maintains alignment with stakeholder expectations.
+
+---
+
+### Frontend Developers
+**Responsibilities:**
+- Implement responsive user interfaces using React, HTML, CSS, and JavaScript.  
+- Develop reusable UI components that match Figma design specifications.  
+- Ensure accessibility and mobile responsiveness.  
+- Collaborate with designers and backend developers for API integration.
+
+**Contribution to Success:**  
+Frontend developers bring the visual and interactive aspects of the platform to life, ensuring a smooth user experience.
+
+---
+
+### Backend Developers
+**Responsibilities:**
+- Develop APIs and integrate database systems.  
+- Manage authentication, business logic, and data flow between frontend and backend.  
+- Ensure security, performance, and scalability.  
+- Work closely with the frontend team to synchronize functionality.
+
+**Contribution to Success:**  
+Backend developers enable the application’s functionality by managing data and server-side operations seamlessly.
+
+---
+
+### Designers
+**Responsibilities:**
+- Create UI/UX mockups and maintain a cohesive design system.  
+- Define color schemes, typography, and layout consistency.  
+- Conduct usability testing to enhance user experience.  
+- Collaborate with frontend developers to ensure design fidelity.
+
+**Contribution to Success:**  
+Designers ensure the platform is visually appealing, intuitive, and aligned with user needs.
+
+---
+
+### QA/Testers
+**Responsibilities:**
+- Write and execute test cases to identify bugs and inconsistencies.  
+- Conduct functional, usability, and responsive design testing.  
+- Verify that all components work as intended across browsers and devices.  
+- Provide detailed reports and collaborate with developers to resolve issues.
+
+**Contribution to Success:**  
+QA/Testers ensure product quality and reliability by maintaining high testing standards before deployment.
+
+---
+
+### DevOps Engineers
+**Responsibilities:**
+- Manage deployment environments and CI/CD pipelines.  
+- Configure Docker containers and automate build processes.  
+- Monitor performance, scalability, and uptime.  
+- Implement continuous integration for efficient team collaboration.
+
+**Contribution to Success:**  
+DevOps Engineers streamline the development-to-deployment workflow, ensuring stability and speed in releases.
+
+---
+
+### Product Owner
+**Responsibilities:**
+- Defines product requirements and prioritizes features.  
+- Acts as the voice of the user and stakeholders.  
+- Manages the product backlog and ensures alignment with project goals.  
+- Evaluates completed features to ensure they meet user expectations.
+
+**Contribution to Success:**  
+The Product Owner ensures that the final product delivers real value to users and aligns with business objectives.
+
+---
+
+### Scrum Master
+**Responsibilities:**
+- Facilitates agile processes and daily stand-up meetings.  
+- Removes blockers and ensures team efficiency.  
+- Encourages collaboration and continuous improvement.  
+- Tracks sprint progress and fosters communication among team members.
+
+**Contribution to Success:**  
+The Scrum Master maintains productivity and ensures that agile methodologies are effectively followed throughout the project.
+
+---
+
+Each role plays a vital part in achieving a cohesive, well-structured, and successful product — from concept to deployment.
+
+## UI Component Patterns
+
+The project follows a component-based architecture to ensure scalability, reusability, and consistency across the user interface.  
+Each UI component is designed to be modular and maintainable, aligning with best practices in modern frontend development.
+
+---
+
+### Navbar
+**Description:**  
+The navigation bar provides quick access to key sections of the application, ensuring smooth user navigation.
+
+**Features:**
+- Displays the project logo or brand name.  
+- Includes a search bar for property lookup.  
+- Provides navigation links such as “Home,” “Explore,” and “Bookings.”  
+- Contains user account controls (login, profile, logout).  
+- Adapts responsively for mobile screens with a collapsible menu.
+
+**Purpose:**  
+The Navbar enhances usability by keeping navigation accessible from any page and supports quick user actions.
+
+---
+
+### Property Card
+**Description:**  
+The Property Card displays essential property details in a visually compact format on the listing page.
+
+**Features:**
+- Displays property image, name, location, and price per night.  
+- Includes ratings and a favorite (wishlist) button.  
+- Offers a responsive grid layout that adjusts to different screen sizes.  
+- Clickable for navigation to the detailed property view page.
+
+**Purpose:**  
+Property Cards provide a clean, informative summary of available listings, allowing users to browse efficiently.
+
+---
+
 
 
 
